@@ -1,0 +1,917 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* min-width & max-width */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    
+}
+    
+/* max device width */
+@media screen and (max-device-width: 480px) {
+}
+
+.logo {
+    margin-left: 625px;
+    margin-right: auto;
+    width: 6em;
+    margin-top: 100px;
+}
+
+#menu ul {
+    width: 970px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 115px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+#menu li {
+    display: inline-flex;
+    line-height: 43px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+#menu ul li a {
+    padding: 0px 15px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(88, 88, 92);
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold; 
+}
+
+a {
+    width: 120px;
+    background-color: rgb(88, 88, 92);
+    padding: 0px 0px;
+}
+
+/*.background {
+    width: 1150px;
+    min-height: 800px;
+    border: 5px solid black;
+}*/
+
+body {
+
+}
+
+.produtos {
+    background-color: white;
+    width: 1081px;
+    height: 1425px;
+    position: relative;
+    z-index: -2;
+    padding: 0px;
+    margin: 68px;
+    bottom: 250px;
+    background-image: url(/assets/images/backgroundgrande.jpg);
+    margin-left: 135px;
+    margin-top: 57px;
+
+}
+
+.banner {
+    width: 960px;
+    height: 280px;
+    position: relative;;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    margin-top: 200px;
+    margin-left: 60px;
+}
+
+.produto1 {
+    background-image: url();
+    background-size: 100% 100%;
+    position: relative;
+    width: 310px;
+    height: 180px;
+    margin-left: 60px;
+    top: 9px;
+    background-image: url(/assets/images/card1.jpg);
+}
+.nomeproduto1 {
+    width: 310px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: center;
+    padding: 2px 0px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 0px;
+}
+
+.newproduto1 {
+    background-image: url(/assets/images/etiquetanew.png);
+    max-width: 65px;
+    height: 60px;
+    left: 235px;
+    top: 0px;
+    position: relative;
+}
+
+.produto2 {
+    background-image: url();
+    background-size: 100% 100%;
+    position: relative;
+    width: 310px;
+    height: 180px;
+    margin-left: 325px;
+    top: -240px;
+    background-image: url(/assets/images/card2.jpg);
+}
+.nomeproduto2 {
+    width: 310px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: center;
+    padding: 2px 0px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 0px;
+}
+
+.freeproduto2 {
+    background-image: url(/assets/images/etiquetafree.png);
+    max-width: 65px;
+    height: 60px;
+    left: 235px;
+    top: 0px;
+    position: relative;
+}
+
+.produto3 {
+    background-image: url();
+    background-size: 100% 100%;
+    position: relative;
+    width: 310px;
+    height: 180px;
+    margin-left: 325px;
+    top: -240px;
+    background-image: url(/assets/images/card3.jpg);
+}
+.nomeproduto3 {
+    width: 300px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: center;
+    padding: 2px 0px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.offproduto3 {
+    background-image: url(/assets/images/etiquetaoff.png);
+    max-width: 65px;
+    height: 60px;
+    left: 235px;
+    top: 0px;
+    position: relative;
+}
+
+.titulo1 {
+    background-size: 100% 100%;
+    position: relative;
+    width: 310px;
+    height: 180px;
+    margin-left: 0px;
+    top: 133px;
+    font-weight: bolder;
+}
+
+.descricao1 {
+    margin-top: 26px;
+    font-weight: normal;
+}
+
+.vermais1 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(88, 88, 92);
+            left: 2px;
+            top: 334px;
+            vertical-align: center;
+            padding: 0px 0px;
+            text-align: center;
+            font-size: 18px;
+}
+
+.botao01 {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+p1 {
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    line-height: 0px;
+    letter-spacing: 1px;
+    vertical-align: -10px;
+    text-align: center;
+
+}
+
+.titulo2 {
+    background-size: 100% 100%;
+    position: relative;
+    width: 310px;
+    height: 180px;
+    margin-left: 0px;
+    top: 133px;
+    font-weight: bolder;
+}
+
+.descricao2 {
+    margin-top: 26px;
+    font-weight: normal;
+}
+
+.vermais2 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(88, 88, 92);
+            left: 2px;
+            top: 334px;
+            vertical-align: center;
+            padding: 0px 0px;
+            text-align: center;
+            font-size: 18px;
+
+            
+}
+
+.botao02 {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+p2 {
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    line-height: 0px;
+    letter-spacing: 1px;
+    vertical-align: -10px;
+    text-align: center;
+}
+
+.titulo3 {
+    background-size: 100% 100%;
+    position: relative;
+    width: 310px;
+    height: 180px;
+    margin-left: 0px;
+    top: 133px;
+    font-weight: bolder;
+}
+
+.descricao3 {
+    margin-top: 26px;
+    font-weight: normal;
+}
+
+.vermais3 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(88, 88, 92);
+            left: 2px;
+            top: 334px;
+            vertical-align: center;
+            padding: 0px 0px;
+            text-align: center;
+            font-size: 18px;
+
+            
+}
+
+.botao03 {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+p3 {
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    line-height: 0px;
+    letter-spacing: 1px;
+    vertical-align: -10px;
+    text-align: center;
+}
+
+.produto4 {
+    background-size: 100% 100%;
+    position: relative;
+    width: 310px;
+    height: 180px;
+    margin-left: -650px;
+    top: 155px;
+    background-image: url(/assets/images/card4.jpg);
+}
+.nomeproduto4 {
+    width: 310px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: center;
+    padding: 2px 0px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 0px;
+}
+
+.freeproduto4 {
+    background-image: url(/assets/images/etiquetafree.png);
+    max-width: 65px;
+    height: 60px;
+    left: 235px;
+    top: 0px;
+    position: relative;
+}
+
+.produto5 {
+    background-size: 100% 100%;
+    position: relative;
+    width: 310px;
+    height: 180px;
+    margin-left: 325px;
+    top: -240px;
+    background-image: url(/assets/images/card5.jpg);
+}
+.nomeproduto5 {
+    width: 310px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: center;
+    padding: 2px 0px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 0px;
+}
+
+.newproduto5 {
+    background-image: url(/assets/images/etiquetanew.png);
+    max-width: 65px;
+    height: 60px;
+    left: 235px;
+    top: 0px;
+    position: relative;
+}
+
+.produto6 {
+    background-size: 100% 100%;
+    position: relative;
+    width: 310px;
+    height: 180px;
+    margin-left: 325px;
+    top: -240px;
+    background-image: url(/assets/images/card6.jpg);
+}
+.nomeproduto6 {
+    width: 310px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: center;
+    padding: 2px 0px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 0px;
+}
+
+.offproduto6 {
+    background-image: url(/assets/images/etiquetaoff.png);
+    max-width: 65px;
+    height: 60px;
+    left: 235px;
+    top: 0px;
+    position: relative;
+}
+
+.titulo4 {
+    background-size: 100% 100%;
+    position: relative;
+    width: 310px;
+    height: 180px;
+    margin-left: 0px;
+    top: 133px;
+    font-weight: bolder;
+}
+
+.descricao4 {
+    margin-top: 26px;
+    font-weight: normal;
+}
+
+.vermais4 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(88, 88, 92);
+            left: 2px;
+            top: 334px;
+            vertical-align: center;
+            padding: 0px 0px;
+            text-align: center;
+            font-size: 18px;     
+}
+
+.botao04 {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+p4 {
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    line-height: 0px;
+    letter-spacing: 1px;
+    vertical-align: -10px;
+    text-align: center;
+}
+
+.titulo5 {
+    background-size: 100% 100%;
+    position: relative;
+    width: 310px;
+    height: 180px;
+    margin-left: 0px;
+    top: 133px;
+    font-weight: bolder;
+}
+
+.descricao5 {
+    margin-top: 26px;
+    font-weight: normal;
+}
+
+.vermais5 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(88, 88, 92);
+            left: 2px;
+            top: 334px;
+            vertical-align: center;
+            padding: 0px 0px;
+            text-align: center;
+            font-size: 18px;
+
+            
+}
+
+.botao05 {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+p5 {
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    line-height: 0px;
+    letter-spacing: 1px;
+    vertical-align: -10px;
+    text-align: center;
+}
+
+.titulo6 {
+    background-size: 100% 100%;
+    position: relative;
+    width: 310px;
+    height: 180px;
+    margin-left: 0px;
+    top: 133px;
+    font-weight: bolder;
+}
+
+.descricao6 {
+    margin-top: 26px;
+    font-weight: normal;
+}
+
+.vermais6 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(88, 88, 92);
+            left: 2px;
+            top: 334px;
+            vertical-align: center;
+            padding: 0px 0px;
+            text-align: center;
+            font-size: 18px;
+
+            
+}
+
+.botao06 {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+p6 {
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    line-height: 0px;
+    letter-spacing: 1px;
+    vertical-align: -10px;
+    text-align: center;
+}
+
+.rodape {
+    width: 955px;
+    height: 120px;
+    background-color: #c9411f;
+    margin: 0 auto;
+    margin-top: -438px;
+    border-radius: 15px 15px 0 0;
+    margin-left: 198px;
+    z-index: -1;
+}
+
+#menuinferior ul {
+    list-style-type: none;
+  padding: 0;
+  width: 955px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+#menuinferior li {
+    display: inline-block;
+  padding: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 30px;
+  padding-left: -10;
+
+}
+    /*display: inline-block;
+    line-height: 20px;
+    width:130px;
+  padding: 0px;*/
+
+  #menuinferior ul::after {
+    font-size: 0;
+    list-style-type: none;
+  padding: 0;
+    clear:both;
+    content: "";
+    display: block;
+  }
+
+    /*width: 970px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    vertical-align: middle;   
+    padding-left: 1px;
+    padding-right: 1px;*/
+
+#menuinferior ul li a {
+    width: 600px;
+    margin: 42px;
+    margin-right: 0px;
+    margin-left: -40px;
+    color: white;
+    text-decoration: none;
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold; 
+    background-color: #c9411f;
+}
+
+
+/*width: 970px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    padding: 0px;
+    vertical-align: middle;
+
+.produto2 {
+    background-image: url(assets/images/card2.jpg);
+    background-size: 100% 100%;
+    
+    position: relative;
+    width: 300px;
+    height: 180px;
+    margin: 10px;
+    top: 25px;
+}
+
+.produto3 {
+    background-image: url(assets/images/card3.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    width: 300px;
+    height: 180px;
+    margin: 10px;
+    top: 40px;
+}
+
+.produto4 {
+    background-image: url(assets/images/card4.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    left: 330px;
+    top: 20px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.produto5 {
+    background-image: url(assets/images/card6.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    left: 330px;
+    top: 225px;
+}
+
+.produto6 {
+    background-image: url(assets/images/card6.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    left: 330px;
+    top: 430px;
+}
+
+.freeproduto1 {
+    background-image: url(/images/etiquetafree.png);
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    left: 223px;
+    top: 0px;
+
+}
+
+.offproduto2 {
+    background-image: url(/images/etiquetaoff.png);
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    left: 223px;
+    top: 0px;
+}
+
+.freeproduto3 {
+    background-image: url(/images/etiquetafree.png);
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    left: 223px;
+    top: 0px;
+}
+
+.offproduto4 {
+    background-image: url(/images/etiquetaoff.png);
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    left: 223px;
+    top: 0px;
+}
+
+.newproduto5 {
+    background-image: url(/images/etiquetanew.png);
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    left: 223px;
+    top: 0px;
+}
+
+.offproduto6 {
+    background-image: url(/images/etiquetaoff.png);
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    left: 223px;
+    top: 0px;
+}
+
+.nomeproduto1 {
+    width: 300px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: center;
+    padding: 2px 0px;
+}
+
+p {
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 4px;
+    letter-spacing: 1px;
+    vertical-align: 1px;
+    text-align: center;
+
+}
+
+.nomeproduto2 {
+    width: 300px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: center;
+    padding: 2px 0px;
+
+}
+
+p1 {
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 0px;
+    letter-spacing: 1px;
+    vertical-align: -1px;
+    text-align: center;
+
+}
+
+.nomeproduto4 {
+    width: 300px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: center;
+    padding: 2px 0px;
+
+}
+
+p2 {
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 0px;
+    letter-spacing: 1px;
+    vertical-align: 1px;
+    text-align: center;
+
+}
+
+.nomeproduto5 {
+    width: 300px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: center;
+    padding: 2px 0px;
+
+}
+
+p3 {
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 0px;
+    letter-spacing: 1px;
+    vertical-align: -1px;
+    text-align: center;
+
+}
+
+.nomeproduto7 {
+    width: 300px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: center;
+    padding: 2px 0px;
+
+}
+
+p4 {
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 0px;
+    letter-spacing: 1px;
+    vertical-align: 1px;
+    text-align: center;
+
+}
+
+.nomeproduto8 {
+    width: 300px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: center;
+    padding: 2px 0px;
+
+}
+
+p5 {
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 0px;
+    letter-spacing: 1px;
+    vertical-align: 1px;
+    text-align: center;
+
+}
+
